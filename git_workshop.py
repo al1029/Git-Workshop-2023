@@ -6,12 +6,13 @@ def func1(num_a):
     return (5 + num_a)
 
 def func2(num_b):
-    return (7 + num_b)
+    # placeholder return, replace with your own function
+    return num_b + 3
 
 # both people should modify this function
 def func3(num_a, num_b):
-    print(f"This is the first magical number: {func1(num_a)}" )
-    print(f"This is the second magical number: {func2(num_b)}")
+    # do something with inputs and print something
+    print(num_a + num_b)
 
 a = 1
 b = 1
